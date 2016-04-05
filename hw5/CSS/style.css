@@ -12,6 +12,10 @@ p{
   padding: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 .Microsoft-JhengHei{
   font-family: 'Microsoft JhengHei';
 }
@@ -55,7 +59,6 @@ p{
 
 .site-nav li a{
   color: white;
-  text-decoration: none;
 }
 
 .site-nav li:hover{
