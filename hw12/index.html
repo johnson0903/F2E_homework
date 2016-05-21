@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>J's Bakery</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-target="#navbar-hanburger" data-toggle="collapse" type="button">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="Web-Logo">
+        </a>
+      </div>
+      <!-- navbar-header -->
+
+      <div class="navbar-collapse collapse" id="navbar-hanburger">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">最新消息</a></li>
+          <li><a href="#">產品專區</a></li>
+          <li><a href="#">關於我們</a></li>
+          <li><a href="#">門市查詢</a></li>
+        </ul>
+        <!-- end nav pull-right -->
+      </div>
+      <!-- /.navbar-collapse -->
+
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <div class="container" id="main">
+
+    <div class="row carousel slide" id="myCarousel">
+
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+        <li data-slide-to="1" data-target="#myCarousel"></li>
+        <li data-slide-to="2" data-target="#myCarousel"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active" id="slide1">
+          <div class="carousel-caption">
+            <h4>J's Bakery</h4>
+            <p>在這裡，你絕對會有與其他烘焙坊不一樣的全新感受</p>
+          </div>
+          <!-- end carousel-caption -->
+        </div>
+        <!-- end item -->
+
+        <div class="item" id="slide2">
+          <div class="carousel-caption">
+            <h4>知識</h4>
+            <p>吃麵包，就像閱讀人類文明的智慧累積，卻比書本更直接深刻。
+            我們自詡不只追求美味手藝，更能開拓麵包師傅的國際視野，讓知識成就更多麵包魂</p>
+          </div>
+          <!-- end carousel-caption -->
+        </div>
+        <!-- end item -->
+
+        <div class="item" id="slide3">
+          <div class="carousel-caption">
+            <h4>希望</h4>
+            <p>我們期待，成就台灣烘焙的未來世代。</p>
+          </div>
+          <!-- end carousel-caption -->
+        </div>
+        <!-- end item -->
+      </div>
+      <!-- end carousel-inner -->
+
+      <!-- Controls -->
+      <a class="left carousel-control" data-slide="prev" href="#myCarousel">
+        <span class="icon-prev"></span></a>
+      <a class="right carousel-control" data-slide="next" href="#myCarousel">
+        <span class="icon-next"></span></a>
+
+    </div>
+    <!-- end myCarousel -->
+    <div class="news">
+      <div class="content-header">
+        <img src="images/news.png" alt="news.png">
+        <h3>最新消息</h3>
+      </div>
+    </div>
+
+    <div id="news-content">
+      <img src="images/news-content.png" alt="news-content.png"/>
+    </div>
+
+    <div class="product">
+      <div class="content-header">
+        <img src="images/bread.png" alt="bread.png">
+        <h3>館長推薦</h3>
+      </div>
+    </div>
+
+    <div class="row" id="myThumbnail">
+			<div class="col-sm-4 thumbnail">
+				<div class="panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">法國長棍</h3>
+					</div><!-- end panel-heading -->
+					<img src="images/1.png" alt="HTML5" class="img-circle">
+					<p>採用法國麵包大師Raymond Calvel的自我分解法（Autolyse）內在氣孔大而均勻、外皮酥脆</p>
+					<a href="#" class="btn btn-block">了解更多</a>
+				</div><!-- end panel -->
+			</div><!-- end thumbnail -->
+
+			<div class="col-sm-4 thumbnail">
+				<div class="panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">鹽之花</h3>
+					</div><!-- end panel-heading -->
+					<img src="images/2.png" alt="2.png" class="img-circle">
+					<p>麵糰低溫發酵一夜，帶出麵粉甜味和香氣加入法國葛宏德區天然鹽之花層次分明、風味飽滿</p>
+					<a href="#" class="btn btn-block">了解更多</a>
+				</div><!-- end panel -->
+			</div><!-- end thumbnail -->
+
+			<div class="col-sm-4 thumbnail">
+				<div class="panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">原味貝果</h3>
+					</div><!-- end panel-heading -->
+					<img src="images/3.png" alt="3.png" class="img-circle">
+
+					<p>獨家研發的麵粉黃金比例發酵出的麵糰不但更香貝果的風味也更加濃厚，以少糖、少油為基本原則，嚼勁十足</p>
+
+					<a href="#" class="btn btn-block">了解更多</a>
+				</div><!-- end panel -->
+			</div><!-- end thumbnail -->
+		</div><!-- end myThumbnail -->
+  </div>
+  <!-- end container -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-3">
+          <h6>Copyright &copy;NTUT CSIE, Lee Chia-Chen</h6>
+        </div>
+        <!-- end col-sm-3 -->
+
+        <div class="col-sm-9">
+          <h6>ADDRESS: He-Ping East Road, Section 2, No.134,
+						Taipei University of Education, Taipei, Taiwan</h6>
+        </div>
+        <!-- end col-sm-9 -->
+
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

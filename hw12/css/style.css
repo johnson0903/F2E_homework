@@ -1,0 +1,147 @@
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar-brand {
+  padding: 12px 15px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+  margin-top: 60px;
+  font-size: 1rem;
+}
+.carousel-caption {
+  font-size: 1.5em;
+}
+.carousel-caption h4 {
+  font-size: 2em;
+}
+#myCarousel .item {
+  height: 400px;
+}
+#slide1 {
+  background: url('../images/big-pic1.jpg') top center;
+}
+#slide2 {
+  background: url('../images/big-pic2.jpg') top center;
+}
+#slide3 {
+  background: url('../images/big-pic3.jpg') top center;
+}
+@media (min-width: 1200px) {
+  #myCarousel .item {
+    height: 500px;
+  }
+  #myCarousel {
+    font-size: 1.5rem;
+  }
+  #slide1 {
+    background: url('../images/big-pic1.jpg') top center;
+  }
+  #slide2 {
+    background: url('../images/big-pic2.jpg') top center;
+  }
+  #slide3 {
+    background: url('../images/big-pic3.jpg') top center;
+  }
+}
+@media (max-width: 768px) {
+  #myCarousel .item {
+    height: 310px;
+  }
+  #myCarousel {
+    font-size: 0.8rem;
+  }
+  #slide1 {
+    background: url('../images/big-pic1.jpg') top center;
+  }
+  #slide2 {
+    background: url('../images/big-pic2.jpg') top center;
+  }
+  #slide3 {
+    background: url('../images/big-pic3.jpg') top center;
+  }
+}
+/* --------------------------------------
+   News
+----------------------------------------- */
+#news-content{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  #news-content img{
+    width: 400px;
+    height: auto;
+  }
+}
+/* --------------------------------------
+   Thumbnail
+   -------------------------------------- */
+
+#myThumbnail {
+  text-align: center;
+  margin-top: 30px;
+}
+#myThumbnail img {
+  margin: 20px auto;
+}
+@media (max-width: 1200px) {
+  #myThumbnail img {
+    max-width: 80%;
+  }
+}
+.content-header{
+  margin-top: 30px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+.content-header h3{
+  display: inline-block;
+  font-family: 微軟正黑體;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/* --------------------------------------
+     Footer
+     -------------------------------------- */
+
+footer {
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {}
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 768px) {}
+
+/* Large desktop */
+
+@media (min-width: 1200px) {}
