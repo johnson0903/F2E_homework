@@ -13,7 +13,9 @@ h1, h2, h3, h4, h5, h6{
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-
+.navbar-right li:hover{
+  background-color: rgb(126, 184, 187);
+}
 #myCarousel {
   margin-top: 60px;
   font-size: 1rem;
@@ -81,7 +83,7 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 768px) {
   #news-content img{
     width: 400px;
-    height: auto;
+    height: 200px;
   }
 }
 /* --------------------------------------
