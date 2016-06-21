@@ -1,6 +1,14 @@
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p, ul{
   margin: 0;
   padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
 }
 /* --------------------------------------
    Navbar
@@ -38,6 +46,22 @@ h1, h2, h3, h4, h5, h6{
 #slide3 {
   background: url('../images/big-pic3.jpg') top center;
 }
+#news-content ul li{
+  margin-bottom: 10px;
+  border-bottom: 1px dashed rgb(33, 33, 33);
+}
+
+#news-content ul li a{
+  font-size: 24px;
+  color: rgb(33, 33, 33);
+}
+
+@media (max-width: 768px){
+  #news-content ul li a{
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 1200px) {
   #myCarousel .item {
     height: 500px;
@@ -113,6 +137,17 @@ h1, h2, h3, h4, h5, h6{
   font-family: 微軟正黑體;
   font-weight: bold;
   padding-top: 20px;
+}
+
+.btn-block p{
+  display: inline-block;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .btn-block p{
+    border: 1px solid rgb(126, 184, 187);
+  }
 }
 
 /* --------------------------------------
